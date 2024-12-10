@@ -1,0 +1,61 @@
+body {
+    background-color: rgba(72, 163, 0, 0.07);
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+}
+
+main {
+    padding: 0 16px;
+}
+
+.title {
+    font-size: 64px;
+    color: #48A300;
+    text-align: center;
+}
+
+.title span {
+    color: #61481C;
+}
+
+.app-container {
+    background-color: #FBFBFB;
+    max-width: 660px;
+    margin-inline: auto;
+    border-radius: 15px;
+    padding: 32px 48px;
+}
+
+.sun-icon {
+    vertical-align: middle;
+    height: 50px;
+}
+
+.progress-label {
+    font-size: 14px;
+    color: #858585;
+    margin-bottom: 18px;
+}
+
+.progress-bar {
+    height: 30px;
+    background-color: rgba(72, 163, 0, 0.1);
+    border-radius: 15px;
+}
+
+.progress-value {
+    height: 100%;
+    width: 66%;
+    background-color: #48A300;
+    border-radius: 15px;
+}
+
+@media (max-width: 768px) {
+    .title{
+        font-size: 32px;
+    }
+
+    .app-container {
+        padding: 16px 32px;
+    }
+}

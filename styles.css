@@ -23,12 +23,12 @@ main {
 }
 
 .app-container {
-    background-color: #FBFBFB;
+    background-color: #fbfbfb;
     max-width: 660px;
     margin-inline: auto;
     border-radius: 15px;
     padding: 32px 48px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 8px 0px rgba(0, 0, 0, 0.1);
 }
 
 .sun-icon {
@@ -46,11 +46,12 @@ main {
     height: 30px;
     background-color: rgba(72, 163, 0, 0.1);
     border-radius: 15px;
+    margin-bottom: 42px;
 }
 
 .progress-value {
     height: 100%;
-    width: 66%;
+    width: 0;
     background-color: #48A300;
     border-radius: 15px;
     font-weight: 500;
@@ -58,6 +59,10 @@ main {
     color: #EEFFE0;
     display: flex;
     align-items: center;
+    overflow: hidden;
+}
+
+.progress-value span {
     padding-left: 20px;
 }
 
@@ -66,6 +71,10 @@ main {
     color: #FF5151;
     margin-top: 4px;
     display: none;
+}
+
+.show-error .error-label {
+    display: block;
 }
 
 .goal-container {
@@ -137,8 +146,6 @@ main {
     color: #48A300;
     text-decoration-line: line-through;
 }
-
-
 
 
 
